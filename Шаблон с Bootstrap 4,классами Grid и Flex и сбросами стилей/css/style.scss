@@ -1,0 +1,61 @@
+// Defaults
+body {
+    overflow-x: hidden;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    div {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+button,
+input,
+textarea,
+select,
+blockquote {
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p,
+a,
+ul,
+li,
+ol,
+i {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+// Variables
+.grid {
+    display: grid;
+}
+.flex{
+    display: flex;
+}
